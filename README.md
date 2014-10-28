@@ -2,6 +2,12 @@
 
 Made with my mentor at [Bloc](http://bloc.io).
 
+Github master for URL for manofcolorado/bloccit:
+https://github.com/manofcolorado/bloccit.git
+
+Heroku master app for URL:
+https://ramosbloccit.herokuapp.com/
+
 == README
 
 This README would normally document whatever steps are necessary to get the
