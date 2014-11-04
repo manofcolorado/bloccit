@@ -34,6 +34,9 @@ gem 'jquery-rails'
 # Gem named Faker to help generate development data automatically
 gem 'faker'
 
+# Devise gem to authenticate Bloccit's users.
+gem 'devise'
+
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 
