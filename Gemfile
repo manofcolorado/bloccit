@@ -37,6 +37,9 @@ gem 'faker'
 # Devise gem to authenticate Bloccit's users.
 gem 'devise'
 
+# Using Figaro to store Sendgrid and Devise credentials as environment variables.
+gem 'figaro', '1.0'
+
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 

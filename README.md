@@ -31,7 +31,8 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
+* Setup
+    Be sure to create a Figaro key device protection following the config/application.example.yml template and use the config/application.yml file to secure this.  You can follow the instructions here for help: https://github.com/laserlemon/figaro#give-me-an-example
 
 
 Please feel free to use a different markup language if you do not plan to run
