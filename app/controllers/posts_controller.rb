@@ -12,7 +12,7 @@ class PostsController < ApplicationController
   end
   
   def create
-    @post = Post.new(params.require(:post).permit(:title, :body))
+    @post = current_user.posts.build(params.require(:post).permit(:title, :body))
     # raise # this is a useful tool for debugging... note where raise would be set to check var @post line above
     if @post.save
       flash[:notice] = "Post was saved."
