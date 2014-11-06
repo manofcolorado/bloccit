@@ -43,4 +43,11 @@ class TopicsController < ApplicationController
     end
   end
   
+  # Discuss with Xander syntax for Stage - 35 Interlude, assignment for commented area below using "topic_param" method
+  # private
+
+  #def post_params # will this be "def topics_param" ?  What about the rest?
+  #  params.require(:post).permit(:title, :body)
+  #end
+  
 end
