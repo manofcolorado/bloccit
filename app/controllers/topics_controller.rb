@@ -23,6 +23,7 @@ class TopicsController < ApplicationController
  
   def create
     @topic = Topic.new(params.require(:topic).permit(:name, :description, :public))
+    # @post = current_user.posts.build(post_params) # Will this go here but use @topic var?
     authorize @topic
     if @topic.save
       redirect_to @topic, notice: "Topic was saved successfully."
@@ -34,6 +35,7 @@ class TopicsController < ApplicationController
 
   def update
     @topic = Topic.find(params[:id])
+    # @post = current_user.posts.build(post_params) # Will this go here but use @topic var?
     authorize @topic
     if @topic.update_attributes(params.require(:topic).permit(:name, :description, :public))
       redirect_to @topic
