@@ -40,6 +40,9 @@ gem 'devise'
 # Using Figaro to store Sendgrid and Devise credentials as environment variables.
 gem 'figaro', '1.0'
 
+# Redcarpet provides Mardown capability to projects
+gem 'redcarpet'
+
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 
